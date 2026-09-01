@@ -1,0 +1,8 @@
+
+------------------------------------------------------------------------------
+|                       AMISCE Utility. Ver 5.04.1147                        |
+|               Copyright (c) 2021 AMI. All rights reserved.                 |
+------------------------------------------------------------------------------
+WARNING: Duplicate questions found. Only one question will be enabled in the script.
+
+Script file exported successfully.
