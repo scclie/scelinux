@@ -1,6 +1,11 @@
 # SCELNX - AMISCE for Linux
 
-a collection of scripts for working with **hidden BIOS settings** (UEFI NVRAM) on AMI Aptio V motherboards (MSI, ASUS, ASRock, Gigabyte, AMD/Intel), from Linux, without Windows.
+> [!CAUTION]  
+> proprietary binary from AMI in the repository. if necessary, u can download from official sources / check the hash. (see the last paragraph)
+
+a collection of helper scripts for working with **hidden BIOS settings** (UEFI NVRAM) on AMI Aptio V motherboards (MSI, ASUS, ASRock, Gigabyte, AMD/Intel), from Linux.
+
+u can also edit the standard bios settings on ur machines if u do not have a com/video output (like 'Restore On AC Power Loss' on servers).
 
 it wraps AMI's native Linux binary **AMISCE** (`SCELNX_64`) - the Linux equivalent of `SCEWIN_64.exe`.
 
@@ -131,9 +136,9 @@ a **power cycle** is required - fully power off and on (or unplug for ~10s / swi
 
 - from **MSI Center** (extraction is inconvenient).
 - from OEM archives based on AMI AMISCE (usually vanilla, not locked):
-  - Intel (AMISCE Utility for M10JNP2SB) - requires accepting a license at download.
+  - Intel ([AMISCE Utility for M10JNP2SB](https://www.intel.com/content/www/us/en/download/19551/amisce-ami-setup-control-environment-utility-for-m10jnp2sb.html)) - requires accepting a license at download.
   - HPE Cloudline, SECO - but the SECO build is locked to SECO platforms.
-- from forum/telegram collections (e.g. `t.me/filebox_x99`, oldrigrevive.com). Look for a **vanilla** `SCELNX_64`, without a vendor banner.
+- from forum/telegram collections (e.g. [t.me/filebox_x99](https://t.me/filebox_x99/84), [oldrigrevive.com](https://oldrigrevive.com/software/amisce/)). Look for a **vanilla** `SCELNX_64`, without a vendor banner.
 - extract via MSI Center utilities on a Windows machine.
 
 ## disclaimer
